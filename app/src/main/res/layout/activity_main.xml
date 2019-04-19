@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/mygreatapp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:layout_marginStart="177dp"
         android:layout_marginLeft="177dp"
         android:layout_marginTop="53dp"
@@ -19,7 +19,7 @@
         android:layout_marginBottom="630dp"
         android:background="@android:color/holo_orange_light"
         android:text="My Great App"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
